@@ -1,5 +1,6 @@
 //#include "quickSort.h"
-#include "bubbleSort.h"
+//#include "bubbleSort.h"
+#include "mergeSort.h"
 int main(){
     vector<int> a = {18,9,52,38,46,79,89,65,45,32,22,21,10,89,96,56,13,23,45,15,478,156,235,1594,101564,165,1,566,3415,64,163,4136,416,35,416,3};
    //selectSort(a); 
@@ -12,6 +13,7 @@ int main(){
     optimizeQuickSort(a,lo,hi);
     */    
    // bubbleSort(a);
+    sort(a);
     for(auto ge:a){
         cout << ge << " ";
     }
